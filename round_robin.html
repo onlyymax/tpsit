@@ -78,15 +78,21 @@
 
 <body>
     <ul>
-        <li><a class="active" href="/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/fcfs.html">FCFS</a></li>
         <li><a href="/priority_scheduling.html">Priority Scheduling</a></li>
-        <li><a href="/round_robin.html">Round Robin</a></li>
+        <li><a class="active" href="/round_robin.html">Round Robin</a></li>
     </ul>
     <div class="content">
-        <h1>TPSIT - Lo Cicero Nicolò Max</h1>
-        <span>Sito sviluppato in 1 ora il 16/01/2024</span>
-        <span>Cliccare nella barra a sinistra l'argomento che si vuole leggere</span>
+        <h1>Round Robin</h1>
+        <span>Questo algoritmo assegna un piccolo quanto di tempo (time quantum) a ciascun processo in modo ciclico.
+            Quando un
+            processo ha esaurito il suo quanto di tempo, viene messo in fondo alla coda dei processi pronti e il
+            processo successivo
+            viene eseguito. Questo algoritmo è particolarmente adatto per i sistemi time-sharing e può garantire un'equa
+            distribuzione della CPU tra i processi. Tuttavia, potrebbe causare un alto tempo di attesa per i processi
+            con burst di
+            CPU molto lunghi.</span>
     </div>
 </body>
 
